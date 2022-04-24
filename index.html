@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleIn.css">
+    <title>Tugas Web 1</title>
+</head>
+<body>
+<div class="container" id="container">
+    <div class="navbar">
+        <div class="signIn bar"><a href="index.html">SignIn</a></div>
+        <div class="signUp bar"><a href="pages/regis.html">SignUp</a></div>
+        <div class="student bar"><a href="pages/student.html">Student</a></div>
+    </div>
+    <div class="form-container sign-up container">
+        <form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="facebook"></i></a>
+				<a href="#" class="social"><i class="google"></i></a>
+				<a href="#" class="social"><i class="linkedin"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button type="button" id="tombol"onclick='login()'>Sign In</button>
+		</form>
+        </form>
+    </div>
+</div>
+<script src="dist/sweetalert2.all.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>

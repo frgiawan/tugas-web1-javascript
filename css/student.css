@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f5f7;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	margin: -20px 0 50px;
+}
+
+.container {
+	margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+a:hover{
+    color: #FF4B2B;
+}
+
+.signIn, .signUp  {
+    background-color: #fff;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #FF4B2B;
+    padding: 3px;
+}
+
+.student {
+	background-color: #FF4B2B;
+	width: 32%;
+	text-align: center;
+	padding: 3px;
+	font-weight: bold;
+} 
+.student a{
+	color: #fff;
+}
+
+h1 {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+/* button */
+button#hapus {
+	background: #FF4742;
+	border: 1px solid #FF4742;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 12px 14px;
+	text-align: center;
+	text-rendering: geometricprecision;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+  }
+  
+  button#hapus:hover,
+  button#hapus:active {
+	background-color: initial;
+	background-position: 0 0;
+	color: #FF4742;
+  }
+  
+  button#hapus:active {
+	opacity: .5;
+  }
+
+  button#edit {
+	background: #426bff;
+	border: 1px solid #426bff;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 12px 14px;
+	text-align: center;
+	text-rendering: geometricprecision;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+  }
+  
+  button#edit:hover,
+  button#edit:active {
+	background-color: initial;
+	background-position: 0 0;
+	color: #FF4742;
+  }
+  
+  button#edit:active {
+	opacity: .5;
+  }
+
+label {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: -20px;
+}
+
+table {
+	margin: 80px auto;
+}
+
+thead {
+	background-color: #FF4B2B;
+	color: white;
+	height: 40px;
+}
+
+th {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+td {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.form-container {
+	
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
